@@ -2,7 +2,10 @@
 # UBCO 2.0 HACKATHON - Space Travel
 
 #GOAL:
-My goal was to build a Augmented Reality planetary model of our solar system. Accomplished a somewhat working prototype, needs fine tuning and further development. I learnt a lot as I had not used any of the technologies going in and feel I can tackle the challenges better in version 2.0. 
+        Vision: https://imgur.com/a/pqvAbOi
+My goal was to build a Augmented Reality planetary model of our solar system with (programmatically). For ex: animate orbit of all planets, orbit of Hubble and International Space Station around Earth. Interactive augmented reality where the user can select various aformentioned views. (echoAR + Unity manage the Augmented Reality, but is challenging due to scaling of planetary dimensions and time).
+
+The goal was to write modularized code that would avoid hardcoding cartesian coordinates to allow for animations and different viewsets created via a user interface to send POST requests to echoAR API . Accomplished a somewaht working prototype, needs fine tuning and further development. I learnt a lot since I had not used any of the technologies going (aside from REST APIs) in and feel I can tackle the challenges better in version 2.0. 
 
 RESULTS YOUTUBE VIDEO: https://www.youtube.com/watch?v=bFtGWuQ8Me0&list=PLdUcV8uRODRQ7xYU6gOGSW7xlpZS6FlLh&index=1
 
@@ -21,17 +24,19 @@ Uploaded 3D models, developed metadata, tried to identify scaling factors for di
 I used C# in Unity to parse through objects, created custom classes to create dict with key:obj mapping to send POST Requests to the echoAR API. Why? To modularize testing of scaling factors, dimensions, and for future development of animating orbit. The POST requests work well for snapshots. Utilizing Unity's physics engine would be idea for building animations to not overload the REST API.
 
 #Challenges?
-The scaling is the most challenging aspect due to the vasntess of space, size of bodies, and limited space. 
-Testing is difficult b/c testing is done in Unity which does not have access to AR. In unity, the model works as expected (kind of) 
+- The scaling is the most challenging aspect due to the vasntess of space, size of bodies, and limited space. I was able to get a working 3d example with scaling but not in AR. I did not have any time to rebuild and identify bugs as the android SDK was published end of the day. AR testing is difficult b/c testing is done in Unity which does not have access to AR. In unity, the model works as expected (kind of) 
 
-https://i.imgur.com/gdTN9WS.png
+- Planetary coordinates (day by day) to build a timelapse. Too time consuming to collect, clean and serialize the data into JSON. Also, have not created data bases in Unity before.
 
-Publishing the app via Unity is a time consuming process. Most of the work was done under 5 hours after spending 7 hours understanding the connection between softwares and beign able to navigate the scripts.
+- Sample 2D view of debugging for scaling: https://i.imgur.com/gdTN9WS.png
 
-4 hours of connection outage to echoAR (maintenance during late night) halted development.
+- Publishing the app via Unity is a time consuming process. Spent 7 hours understanding the connection between softwares and beign able to navigate the scripts.
 
-Solo development mode.
+- 4 hours of connection outage to echoAR (maintenance during late night) halted development.
 
+- Unfamiliar with C#, as I'm used to writing in python. 
+
+- Understaffed
 
 
 

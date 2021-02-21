@@ -1,7 +1,7 @@
 ## DIVI MANGLA  
 # UBCO 2.0 HACKATHON - Space Travel
 
-#GOAL:
+# GOAL:
         3D Results/ AR Vision: https://imgur.com/a/pqvAbOi
 My goal was to build a Augmented Reality planetary model of our solar system with (programmatically). For ex: animate orbit of all planets, orbit of Hubble and International Space Station around Earth. Interactive augmented reality where the user can select various aformentioned views. (echoAR + Unity manage the Augmented Reality, but is challenging due to scaling of planetary dimensions and time).
 
@@ -9,19 +9,20 @@ The goal was to write modularized code that would avoid hardcoding cartesian coo
 
 RESULTS YOUTUBE VIDEO: https://www.youtube.com/watch?v=bFtGWuQ8Me0&list=PLdUcV8uRODRQ7xYU6gOGSW7xlpZS6FlLh&index=1
 
-#Acknowledgements
+# Acknowledgements
 The echoAR team is fantastic, Alon (CEO) and Bora E. (developer) are incredibly supportive. Awesome product as well. UBCO team for putting together the event.
 
 
-#What tools were used? 
+# What tools were used? 
 echoAR (GUI and REST API interface for 3d model Content Delivery Network) and Unity (for building relationships b/w models).   
 
-#What did I do?
-Uploaded 3D models, developed metadata, tried to identify scaling factors for diameters, distance between planets and the interface of the Augemented reality. 
+# What did I do?
+Uploaded 3D models, developed metadata, identified scaling factors for diameters, distance between planets and the interface of the Augemented reality API with Unity. 
+I did the entire build. Understanding the echoAPI system and Unity system to write code C# in Unity to parse through objects, created custom classes to create dict with key:obj mapping to send POST Requests to the echoAR API. 
 
-I used C# in Unity to parse through objects, created custom classes to create dict with key:obj mapping to send POST Requests to the echoAR API. Why? To modularize testing of scaling factors, dimensions, and for future development of animating orbit. The POST requests work well for snapshots. Utilizing Unity's physics engine would be idea for building animations to not overload the REST API.
+Why? To modularize testing of scaling factors, dimensions, and for future development of animating orbit. The POST requests work well for snapshots. Utilizing Unity's physics engine would be idea for building animations to not overload the REST API. 
 
-#Challenges?
+# Challenges?
 - The scaling is the most challenging aspect due to the vasntess of space, size of bodies, and limited space. I was able to get a working 3d example with scaling but not in AR. I did not have any time to rebuild and identify bugs as the android SDK was published end of the day. 
 
 - AR testing is difficult b/c testing is done in Unity which does not have access to AR/Camera. In unity, the model works as expected. Rate limiting also needs to be taken into account for POST requests

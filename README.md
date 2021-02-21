@@ -22,24 +22,23 @@ Uploaded 3D models, developed metadata, tried to identify scaling factors for di
 I used C# in Unity to parse through objects, created custom classes to create dict with key:obj mapping to send POST Requests to the echoAR API. Why? To modularize testing of scaling factors, dimensions, and for future development of animating orbit. The POST requests work well for snapshots. Utilizing Unity's physics engine would be idea for building animations to not overload the REST API.
 
 #Challenges?
-- The scaling is the most challenging aspect due to the vasntess of space, size of bodies, and limited space. I was able to get a working 3d example with scaling but not in AR. I did not have any time to rebuild and identify bugs as the android SDK was published end of the day. AR testing is difficult b/c testing is done in Unity which does not have access to AR. In unity, the model works as expected (kind of) 
+- The scaling is the most challenging aspect due to the vasntess of space, size of bodies, and limited space. I was able to get a working 3d example with scaling but not in AR. I did not have any time to rebuild and identify bugs as the android SDK was published end of the day. 
 
-- Planetary coordinates (day by day) to build a timelapse. Too time consuming to collect, clean and serialize the data into JSON. Also, have not created data bases in Unity before.
+- AR testing is difficult b/c testing is done in Unity which does not have access to AR/Camera. In unity, the model works as expected. Rate limiting also needs to be taken into account for POST requests
+
+- Planetary coordinates (orbits for time lapse, various eclipse, orbit of ISS and Hubble) . Too time consuming to collect, clean and serialize the data into JSON. Also, have not created data bases in Unity before.
 
 - Sample 2D view of debugging for scaling: https://i.imgur.com/gdTN9WS.png
 
 - Publishing the app via Unity is a time consuming process. Spent 7 hours understanding the connection between softwares and beign able to navigate the scripts.
 
-- 4 hours of connection outage to echoAR (maintenance during late night) halted development.
+- 4+ hours of connection outage to echoAR (maintenance during late night) halted development. 
 
-- Unfamiliar with C#, as I'm used to writing in python. 
+- Unfamiliar with C#, as I'm used to writing in python.
 
 - Understaffed
 
-
-
 -----------------------------------------------------------------
-
 
 
 # Unity-ARFoundation-echoAR-example

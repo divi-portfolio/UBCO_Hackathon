@@ -2,7 +2,7 @@
 # UBCO 2.0 HACKATHON - Space Travel
 
 #GOAL:
-Build a Augmented Reality planetary model of our solar system. Accomplished somewhat, needs fine tuning for the AR portion. 
+My goal was to build a Augmented Reality planetary model of our solar system. Accomplished a somewhat working prototype, needs fine tuning and further development. I learnt a lot as I had not used any of the technologies going in and feel I can tackle the challenges better in version 2.0. 
 
 RESULTS YOUTUBE VIDEO: https://www.youtube.com/watch?v=bFtGWuQ8Me0&list=PLdUcV8uRODRQ7xYU6gOGSW7xlpZS6FlLh&index=1
 

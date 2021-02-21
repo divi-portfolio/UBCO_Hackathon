@@ -4,6 +4,8 @@
 #GOAL:
 Build a Augmented Reality planetary model of our solar system. Accomplished somewhat, needs fine tuning for the AR portion. 
 
+RESULTS YOUTUBE VIDEO: https://www.youtube.com/watch?v=bFtGWuQ8Me0&list=PLdUcV8uRODRQ7xYU6gOGSW7xlpZS6FlLh&index=1
+
 #Acknowledgements
 The echoAR team is fantastic, Alon (CEO) and Bora E. (developer) are incredibly supportive. Awesome product as well. UBCO team for putting together the event.
 

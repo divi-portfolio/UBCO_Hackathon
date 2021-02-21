@@ -2,8 +2,10 @@
 # UBCO 2.0 HACKATHON - Space Travel
 
 # GOAL:
-        3D Results/ AR Vision: https://imgur.com/a/pqvAbOi
-My goal was to build a Augmented Reality planetary model of our solar system with (programmatically). For ex: animate orbit of all planets, orbit of Hubble and International Space Station around Earth. Interactive augmented reality where the user can select various aformentioned views. (echoAR + Unity manage the Augmented Reality, but is challenging due to scaling of planetary dimensions and time).
+
+3D Results/ AR Vision: https://imgur.com/a/pqvAbOi
+
+My goal was to build an Augmented Reality planetary model of our solar system (programmatically). For ex: animate orbit of all planets, orbit of Hubble and International Space Station around Earth. Interactive augmented reality where the user can select various aformentioned views. (echoAR + Unity manage the Augmented Reality).
 
 The goal was to write modularized code that would avoid hardcoding cartesian coordinates to allow for animations and different viewsets created via a user interface to send POST requests to echoAR API . Accomplished a somewaht working prototype, needs fine tuning and further development. I learnt a lot since I had not used any of the technologies going (aside from REST APIs) in and feel I can tackle the challenges better in version 2.0. 
 
@@ -11,7 +13,6 @@ RESULTS YOUTUBE VIDEO: https://www.youtube.com/watch?v=bFtGWuQ8Me0&list=PLdUcV8u
 
 # Acknowledgements
 The echoAR team is fantastic, Alon (CEO) and Bora E. (developer) are incredibly supportive. Awesome product as well. UBCO team for putting together the event.
-
 
 # What tools were used? 
 echoAR (GUI and REST API interface for 3d model Content Delivery Network) and Unity (for building relationships b/w models).   
@@ -37,7 +38,7 @@ Why? To modularize testing of scaling factors, dimensions, and for future develo
 
 - Unfamiliar with C#, as I'm used to writing in python.
 
-- Understaffed
+- Understaffed and lack of time
 
 -----------------------------------------------------------------
 

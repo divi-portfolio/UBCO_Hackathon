@@ -1,5 +1,5 @@
 ## DIVI MANGLA  
-# UBCO 2.0 HACKATHON
+# UBCO 2.0 HACKATHON - Space Travel
 
 #GOAL:
 Build a Augmented Reality planetary model of our solar system. Accomplished somewhat, needs fine tuning for the AR portion. 

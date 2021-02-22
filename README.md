@@ -9,7 +9,7 @@ My goal was to build an Augmented Reality planetary model of our solar system (p
 
 The goal was to write modularized code that would avoid hardcoding cartesian coordinates to allow for animations and different viewsets created via a user interface to send POST requests to echoAR API . Accomplished a somewaht working prototype, needs fine tuning and further development. I learnt a lot since I had not used any of the technologies going (aside from REST APIs) in and feel I can tackle the challenges better in version 2.0. 
 
-RESULTS YOUTUBE VIDEO: https://www.youtube.com/watch?v=bFtGWuQ8Me0&list=PLdUcV8uRODRQ7xYU6gOGSW7xlpZS6FlLh&index=1
+RESULTS YOUTUBE VIDEO: https://tinyurl.com/ya3umk5m
 
 # Acknowledgements
 The echoAR team is fantastic, Alon (CEO) and Bora E. (developer) are incredibly supportive. Awesome product as well. UBCO team for putting together the event.

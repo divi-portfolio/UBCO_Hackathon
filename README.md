@@ -1,5 +1,5 @@
 ## DIVI MANGLA  
-# UBCO 2.0 HACKATHON - Space Travel
+# UBCO 2.0 HACKATHON - Space Travel (EchoAR - Winner)
 
 # GOAL:
 
